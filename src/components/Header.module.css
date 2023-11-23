@@ -1,0 +1,25 @@
+.headerBg {
+  background: url("./../assets/Img.png"),
+    lightgray 0px -716.041px / 100% 376.586% no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.circle {
+  overflow: visible !important;
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  background-color: #336de164;
+  position: absolute;
+  left: 10%;
+  top: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.titleHeader {
+  white-space: nowrap;
+}
