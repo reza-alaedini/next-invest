@@ -1,0 +1,31 @@
+.hoverInfo {
+  transition: all 0.5s;
+  background-color: white;
+}
+.footerHover {
+  display: none;
+  transition: all 0.5s;
+}
+
+.cardImg,
+.footerHover {
+  transition: all 0.5s;
+}
+.card:hover .cardImg,
+.card:hover .tags {
+  display: none;
+}
+
+.card:hover .footerHover {
+  display: block;
+}
+
+@media screen and (max-width: 640px) {
+  .card:active .cardImg,
+  .card:active .tags {
+    display: none;
+  }
+  .card:active .footerHover {
+    display: block;
+  }
+}
