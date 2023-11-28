@@ -35,10 +35,13 @@
   .circle {
     width: 300px;
     height: 300px;
-    /* position: static; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); /* Safari & Chrome */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -ms-transform: translate(-50%, -50%); /* Internet Explorer */
+    -o-transform: translate(-50%, -50%); /* Opera */
   }
   .titleHeader {
     font-size: 20px;
