@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tagColor: "rgba(255, 255, 255, 0.80)"
-    }
+        tagColor: "rgba(255, 255, 255, 0.80)",
+      },
     },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [
+    require("flowbite/plugin"),
+  ],
 };

@@ -10,7 +10,10 @@ function Header() {
       {/* Start of Navbar */}
       <nav className="bg-none border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a
+            href="#"
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
             <span className="self-center text-2xl font-bold whitespace-nowrap text-white">
               NEXT INVEST
             </span>
@@ -39,7 +42,10 @@ function Header() {
               />
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto z-20" id="navbar-multi-level">
+          <div
+            className="hidden w-full md:block md:w-auto z-20"
+            id="navbar-multi-level"
+          >
             <ul className="flex flex-col items-center font-medium p-4 md:p-0 mt-4 border md:bg-transparent bg-white border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <button
@@ -148,7 +154,10 @@ function Header() {
                     </li>
 
                     <li>
-                      <a href="#" className="block px-4 py-2 hover:bg-gray-100 ">
+                      <a
+                        href="#"
+                        className="block px-4 py-2 hover:bg-gray-100 "
+                      >
                         Earnings
                       </a>
                     </li>
@@ -202,7 +211,10 @@ function Header() {
                     </li>
 
                     <li>
-                      <a href="#" className="block px-4 py-2 hover:bg-gray-100 ">
+                      <a
+                        href="#"
+                        className="block px-4 py-2 hover:bg-gray-100 "
+                      >
                         Earnings
                       </a>
                     </li>
@@ -246,11 +258,16 @@ function Header() {
         </div>
       </nav>
       {/* End of Navbar */}
-      <img src={bottomShape} className="absolute bottom-0 right-0 z-0 h-1/3 sm:h-2/4" />
+      <img
+        src={bottomShape}
+        className="absolute bottom-0 right-0 z-0 h-1/3 sm:h-2/4"
+      />
 
       {/* Start of header content */}
       <div className={`${styles.circle} z-10`}>
-        <p className={`text-4xl xl:text-6xl ml-40 xl:ml-80 font-bold text-white ${styles.titleHeader}`}>
+        <p
+          className={`text-4xl xl:text-6xl ml-40 xl:ml-80 font-bold text-white ${styles.titleHeader}`}
+        >
           Meaningful investments in <br />
           Main Street businesses
         </p>
