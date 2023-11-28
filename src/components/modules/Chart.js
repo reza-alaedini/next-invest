@@ -31,15 +31,6 @@ class Charts extends Component {
           ],
         },
       ],
-      // responsive: [
-      //   {
-      //     breakpoint: 530,
-
-      //     chart: {
-      //       width: "100px",
-      //     },
-      //   },
-      // ],
     };
   }
 
@@ -52,7 +43,6 @@ class Charts extends Component {
               options={this.state.options}
               series={this.state.series}
               type="area"
-              // width="500"
             />
           </div>
         </div>
