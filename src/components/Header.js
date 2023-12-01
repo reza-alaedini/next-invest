@@ -6,7 +6,7 @@ import bottomShape from "../assets/Shape.png";
 
 function Header() {
   return (
-    <div className={`w-full h-screen ${styles.headerBg}`}>
+    <div id="header" className={`w-full h-screen ${styles.headerBg}`}>
       {/* Start of Navbar */}
       <nav className="bg-none border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
